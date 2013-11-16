@@ -16,5 +16,6 @@
 		"jquery": ">=1.6"
 	},
 	"description": "Plugin to easily pixelate any images and optionally reveal them on hover/click.",
-	"keywords": ["pixelate", "censor", "hide", "reveal"]
+	"keywords": ["pixelate", "censor", "hide", "reveal"],
+	"demo": "http://43081j.github.io/pixelate/"
 }
