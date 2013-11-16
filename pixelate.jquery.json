@@ -1,0 +1,20 @@
+{
+	"name": "pixelate",
+	"version": "0.0.1",
+	"title": "Pixelate.js - Pixelate any image with ease",
+	"author": {
+		"name": "43081j",
+		"url": "https://43081j.github.com/"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://opensource.org/licenses/MIT"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.6"
+	},
+	"description": "Plugin to easily pixelate any images and optionally reveal them on hover/click.",
+	"keywords": ["pixelate", "censor", "hide", "reveal"]
+}
