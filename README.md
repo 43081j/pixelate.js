@@ -3,6 +3,8 @@ pixelate.js
 
 **pixelate.js** is a simple jQuery plugin to pixelate any set of images and optionally reveal them on hover.
 
+[Demo here](http://43081j.github.io/pixelate/)
+
 Example
 ===
 
