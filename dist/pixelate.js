@@ -87,17 +87,13 @@
 				});
 			}
 		});
-		$(window).on('load', function() {
-			$('img[data-pixelate]').pixelate();
-		});
-	} else {
-		document.addEventListener('DOMContentLoaded', function(e) {
-			var img = document.querySelectorAll('img[data-pixelate]');
-			for(var i = 0; i < img.length; i++) {
-				img[i].addEventListener('load', function() {
-					this.pixelate();
-				});
-			};
-		});
 	}
+	document.addEventListener('DOMContentLoaded', function(e) {
+		var img = document.querySelectorAll('img[data-pixelate]');
+		for(var i = 0; i < img.length; i++) {
+			img[i].addEventListener('load', function() {
+				this.pixelate();
+			});
+		};
+	});
 })(window, typeof jQuery === 'undefined' ? null : jQuery);
