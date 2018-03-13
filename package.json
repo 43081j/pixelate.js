@@ -7,7 +7,7 @@
     "example": "examples"
   },
   "scripts": {
-    "build": "npm run lint && uglifyjs dist/pixelate.js -c -o pixelate.min.js",
+    "build": "npm run lint && uglifyjs dist/pixelate.js -c -m -o pixelate.min.js",
     "lint": "eslint dist/*.js"
   },
   "repository": {
