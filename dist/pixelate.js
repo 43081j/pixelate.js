@@ -116,7 +116,7 @@
 
     for (var i = 0; i < img.length; i++) {
       img[i].addEventListener('load', function () {
-        this.pixelate();
+        pixelate.apply(this);
       });
     }
   });
