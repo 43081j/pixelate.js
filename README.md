@@ -1,7 +1,7 @@
 pixelate.js
 ===
 
-**pixelate.js** is a simple library and jQuery plugin to pixelate any set of images and optionally reveal them on hover.
+**pixelate.js** is a simple standalone library in pure Javascript and jQuery plugin to pixelate any set of images and optionally reveal them on hover.
 
 [Demo here](http://43081j.github.io/pixelate/)
 
@@ -19,14 +19,14 @@ document.querySelector('img').pixelate();
 Or via HTML data attributes:
 
 ```html
-<img src="test.jpg" width="200" height="200" data-pixelate>
+<img src="test.jpg" alt="" data-pixelate>
 ```
 
 Options
 ===
 
-* `value` The percentage of pixelation to perform, a value between `0` and `1`
-* `reveal` Reveal the image on hover and remain revealed if clicked
+* `value` The percentage of pixelation to perform, a value between `0` and `1`, with `1` being no pixelation and `0` being maximum pixelation.
+* `reveal` Reveal the image on hover and remain revealed if clicked.
 * `revealonclick` Reveal the image on click. When combined with `reveal`, it will remain revealed after being clicked.
 
 These options may be specified by data tags, like so:
