@@ -101,8 +101,6 @@
     }
   };
 
-  window.HTMLImageElement.prototype.pixelate = pixelate;
-
   if (typeof $ === 'function') {
     $.fn.extend({
       pixelate: function() {
