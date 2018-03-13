@@ -1,0 +1,33 @@
+{
+  "name": "pixelate.js",
+  "version": "1.0.0",
+  "description": "Pure JavaScript library to pixelate images and reveal on hover",
+  "main": "dist/pixelate.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "npm run lint && uglifyjs dist/pixelate.js -c -m -o pixelate.min.js",
+    "lint": "eslint dist/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/43081j/pixelate.js.git"
+  },
+  "keywords": [
+    "pixelate",
+    "jquery",
+    "reveal",
+    "image"
+  ],
+  "author": "43081j",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/43081j/pixelate.js/issues"
+  },
+  "homepage": "https://github.com/43081j/pixelate.js#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "uglify-js": "^3.3.14"
+  }
+}

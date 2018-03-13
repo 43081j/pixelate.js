@@ -8,15 +8,13 @@ pixelate.js
 Usage
 ===
 
-**pixelate.js** can be used with or without jQuery.
+**pixelate.js** can be used with jQuery:
 
 ```javascript
-// Following two lines are near identical
 $('img').pixelate();
-document.querySelector('img').pixelate();
 ```
 
-Or via HTML data attributes:
+Or without via HTML data attributes:
 
 ```html
 <img src="test.jpg" width="200" height="200" data-pixelate>
