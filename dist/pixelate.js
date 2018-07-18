@@ -103,9 +103,10 @@
 
   if (typeof $ === 'function') {
     $.fn.extend({
-      pixelate: function(options) {
+      pixelate: function() {
+        var args = arguments;
         return this.each(function () {
-          pixelate.apply(this, [options]);
+          pixelate.apply(this, args);
         });
       }
     });
