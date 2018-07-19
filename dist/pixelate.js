@@ -12,12 +12,12 @@
       revealonclick: false
     };
 
-    var options = arguments[1] || {};
+    var options = arguments[0] || {};
     var element = this;
     var elementParent = element.parentNode;
 
     if (typeof options !== 'object') {
-      options = { value: parseInt(arguments[1]) };
+      options = { value: parseInt(arguments[0]) };
     }
 
     options = (function() {
@@ -104,8 +104,9 @@
   if (typeof $ === 'function') {
     $.fn.extend({
       pixelate: function() {
+        var args = arguments;
         return this.each(function () {
-          pixelate.apply(this, arguments);
+          pixelate.apply(this, args);
         });
       }
     });
