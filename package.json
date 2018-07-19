@@ -1,6 +1,6 @@
 {
   "name": "pixelate.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pure JavaScript library to pixelate images and reveal on hover",
   "main": "dist/pixelate.js",
   "directories": {
